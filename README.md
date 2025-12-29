@@ -119,7 +119,7 @@ The architecture supports a Sentry-like model. Right now you handle persistence.
 
 ## Deployment
 
-- **SDK**: Published as npm package for distribution
+- **SDK**: Published as npm package for distribution https://www.npmjs.com/package/decision-xray
 - **Database**: Supabase (managed PostgreSQL with built-in API)
 - **Backend**: Railway (containerized Node.js deployment)
 - **Dashboard**: Cloudflare Pages (static site hosting)
