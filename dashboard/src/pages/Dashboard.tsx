@@ -48,16 +48,16 @@ export function Dashboard() {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-8">
         <div className="mb-6 sm:mb-8">
-          <div>
-            <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">Decision X-Ray</h1>
-            <p className="mt-1 text-sm text-gray-500">
-              Debug multi-step decision pipelines
-            </p>
-            <div className="mt-4">
-              <Button onClick={handleRunWorkflow} loading={loading} className="text-xs px-3 py-1.5">
-                Run Analysis
-              </Button>
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">Decision X-Ray</h1>
+              <p className="mt-1 text-sm text-gray-500">
+                Debug multi-step decision pipelines
+              </p>
             </div>
+            <Button onClick={handleRunWorkflow} loading={loading} className="text-xs px-3 py-1.5 flex-shrink-0">
+              Run Analysis
+            </Button>
           </div>
         </div>
 
