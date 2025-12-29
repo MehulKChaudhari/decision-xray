@@ -1,0 +1,41 @@
+{
+  "name": "decision-xray",
+  "version": "0.1.0",
+  "description": "Lightweight SDK for capturing decision-making in multi-step algorithmic systems",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "type-check": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "debugging",
+    "decision-tracking",
+    "pipeline",
+    "observability",
+    "tracing",
+    "xray"
+  ],
+  "author": "Mehul",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehulkchaudhari/decision-xray.git",
+    "directory": "decision-xray"
+  },
+  "homepage": "https://github.com/mehulkchaudhari/decision-xray#readme",
+  "bugs": {
+    "url": "https://github.com/mehulkchaudhari/decision-xray/issues"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
+
