@@ -5,8 +5,8 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "nodemon",
-    "build": "tsc && cp -R src/config dist/config",
-    "start": "node dist/server.js",
+    "build": "tsc",
+    "start": "NODE_CONFIG_DIR=./src/config node dist/server.js",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
