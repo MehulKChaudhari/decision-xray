@@ -1,4 +1,4 @@
-# Decision X-Ray
+# Decision X-Ray [WIP]
 
 A debugging system for multi-step decision pipelines. When your algorithm picks the wrong output, X-Ray shows you exactly why at each step.
 
